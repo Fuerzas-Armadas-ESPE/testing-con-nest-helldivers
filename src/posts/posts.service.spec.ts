@@ -2,7 +2,6 @@ import { Test, TestingModule } from '@nestjs/testing';
 import { PostsService } from './posts.service';
 import { getModelToken } from '@nestjs/mongoose';
 
-
 describe('PostsService', () => {
   let service: PostsService;
 
@@ -12,7 +11,7 @@ describe('PostsService', () => {
         PostsService,
         {
           provide: getModelToken('Post'),
-          useValue: {}, // Provide a mock value for the model
+          useValue: {}, // Proporciona un valor falso para el modelo
         },
       ],
     }).compile();
@@ -24,5 +23,19 @@ describe('PostsService', () => {
     expect(service).toBeDefined();
   });
 
-  // Add more tests as needed for service methods
+  // Prueba deletePost
+  describe('deletePost', () => {
+    it('should delete a post', async () => {
+      const postId = '123'; // Simular el ID que tiene el post
+
+      // Confirmar que se llamó con el ID correcto
+      jest.spyOn(service, 'deletePost').mockResolvedValueOnce();
+
+      // Llamar al método deletePost del servicio
+      await service.deletePost(postId);
+
+      // Verificar que el método deletePost se llamó con el ID correcto
+      expect(service.deletePost).toHaveBeenCalledWith("123");
+    });
+  });
 });

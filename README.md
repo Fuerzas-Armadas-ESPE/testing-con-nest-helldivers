@@ -1,16 +1,14 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/Z9nUSplb)
 # Prueba Unitaria del servicio deletePost
-
-
-# Blog Personal Nest
-# Prueba pasada
+## Prueba pasada
 ![image](https://github.com/Fuerzas-Armadas-ESPE/testing-con-nest-helldivers/assets/67701130/cbb82986-7874-4b72-878a-8acca4fe2691)
 ![image](https://github.com/Fuerzas-Armadas-ESPE/testing-con-nest-helldivers/assets/67701130/46662b36-7c03-4af1-8f21-b22ed3d0fc04)
 
-# Prueba Fallida
+## Prueba Fallida
 ![image](https://github.com/Fuerzas-Armadas-ESPE/testing-con-nest-helldivers/assets/67701130/73155145-9028-4d2a-812c-2c6f4db0f56f)
 ![image](https://github.com/Fuerzas-Armadas-ESPE/testing-con-nest-helldivers/assets/67701130/c2f2c551-8248-47e1-b0ba-3f60044acf96)
 
+# Blog Personal Nest
 ![Blog Personal Nest](img/image.png)
 
 
